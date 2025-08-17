@@ -17,7 +17,7 @@ A web app to **upload documents, summarize them, edit the summary, and share via
 ## 🛠 Technologies Used
 
 - **Frontend:** React ⚛️, Tailwind CSS 🎨, Axios 🔗, EmailJS 📧  
-- **Backend:** Node.js 🟢, Express 🚂, CORS 🌐, Multer 📦  
+- **Backend:** Node.js 🟢, Express 🚂, CORS 🌐  
 - **Deployment:** Render 🌍  
 - **Other:** Environment variables for secure API keys 🔑  
 
