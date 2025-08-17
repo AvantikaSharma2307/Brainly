@@ -32,33 +32,37 @@ cd Brainly
 Backend Setup
 cd server
 npm install
+```
 
-
-Create a .env file in the backend directory:
-
+### Create a .env file in the backend directory:
+```bash
 PORT=5000
 EMAILJS_SERVICE_ID=your_service_id
 EMAILJS_TEMPLATE_ID=your_template_id
 EMAILJS_PUBLIC_KEY=your_public_key
+```
 
 
-Start the backend server:
-
+### Start the backend server:
+```bash
 npm start
 
 Frontend Setup
 cd frontend
 npm install
+```
 
 
-Create a .env file in the frontend directory:
+### Create a .env file in the frontend directory:
+```bash
 
 VITE_EMAILJS_SERVICE_ID=your_service_id
 VITE_EMAILJS_TEMPLATE_ID=your_template_id
 VITE_EMAILJS_PUBLIC_KEY=your_public_key
 VITE_BACKEND_URL=http://localhost:5000
+```
 
-
-Start the frontend:
-
+### Start the frontend:
+```bash
 npm run dev
+```
