@@ -14,7 +14,7 @@ const upload = multer({ dest: "uploads/" });
 const groq = new Groq({ apiKey: process.env.GROQ_API_KEY });
 
 app.use(bodyParser.json());
-app.use(cors({ origin: "http://localhost:5174" }));
+app.use(cors({ origin: "https://brainly-ai-zby2.onrender.com" }));
 
 // Summarize endpoint
 app.post("/summarize", upload.single("file"), async (req, res) => {
