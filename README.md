@@ -1,4 +1,4 @@
-# ✨ Quick Summarizer & Share ✨
+# ✨Brainly AI Quick Summarizer & Share ✨
 
 A web app to **upload documents, summarize them, edit the summary, and share via email**! 🚀📄✉️  
 
@@ -27,8 +27,8 @@ A web app to **upload documents, summarize them, edit the summary, and share via
 
 ### Clone the repository
 ```bash
-git clone https://github.com/AvantikaSharma2307/Quick-Summarizer.git
-cd Quick-Summarizer
+git clone https://github.com/AvantikaSharma2307/Brainly.git
+cd Brainly
 Backend Setup
 cd server
 npm install
