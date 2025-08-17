@@ -18,7 +18,7 @@ export default function SummaryApp() {
 
     setLoading(true);
     try {
-      const res = await axios.post("http://localhost:5000/summarize", formData, {
+      const res = await axios.post("https://brainly-kpxa.onrender.com/summarize", formData, {
         headers: { "Content-Type": "multipart/form-data" },
       });
       setSummary(res.data.summary);
